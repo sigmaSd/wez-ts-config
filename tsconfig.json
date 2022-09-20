@@ -1,0 +1,17 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "moduleResolution": "node",
+    "types": [],
+    "strict": true,
+    "types": ["@typescript-to-lua/language-extensions", "lua-types/jit"],
+  },
+  "tstl": {
+    "luaTarget": "JIT",
+    "luaBundle": "./lua/testp/init.lua",
+    "luaBundleEntry": "./src/testp/init.ts",
+    "noImplicitSelf": true
+  }
+}
