@@ -11,3 +11,5 @@ use 'sigmaSd/nvim-ts-demo'
 ```
 require("testp").setup()
 ```
+
+you can now use `:Hello` command
