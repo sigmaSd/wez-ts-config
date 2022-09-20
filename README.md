@@ -8,8 +8,15 @@ use 'sigmaSd/nvim-ts-demo'
 
 ## Usage
 
-```
+```lua
 require("testp").setup()
 ```
 
 you can now use `:Hello` command
+
+# Developping
+
+```bash
+npm install
+npm dev
+```
