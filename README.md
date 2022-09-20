@@ -18,5 +18,5 @@ you can now use `:Hello` command
 
 ```bash
 npm install
-npm dev
+npm run dev
 ```
