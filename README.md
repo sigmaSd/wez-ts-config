@@ -14,7 +14,7 @@ require("testp").setup()
 
 you can now use `:Hello` command
 
-# Developping
+## Developing
 
 ```bash
 npm install
