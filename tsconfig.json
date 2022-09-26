@@ -10,8 +10,8 @@
   },
   "tstl": {
     "luaTarget": "JIT",
-    "luaBundle": "./lua/testp/init.lua",
-    "luaBundleEntry": "./src/testp/init.ts",
+    "luaBundle": "./lua/demo/init.lua",
+    "luaBundleEntry": "./src/demo/init.ts",
     "noImplicitSelf": true
   }
 }
