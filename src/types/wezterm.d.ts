@@ -22,18 +22,5 @@ interface Config {
 
   font: void,
 
-  hyperlink_rules: [
-    {
-      format: string,
-      regex: string,
-    },
-    {
-      format: string,
-      regex: string,
-    },
-    {
-      format: string,
-      regex: string,
-    },
-  ],
+  hyperlink_rules: { format: string, regex: string, }[],
 }
