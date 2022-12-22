@@ -1,17 +1,15 @@
 {
   "include": ["src"],
   "compilerOptions": {
+       "module": "commonjs",
     "target": "esnext",
     "lib": ["esnext"],
     "moduleResolution": "node",
-    "types": [],
     "strict": true,
     "types": ["@typescript-to-lua/language-extensions", "lua-types/jit"],
   },
   "tstl": {
     "luaTarget": "JIT",
-    "luaBundle": "./lua/demo/init.lua",
-    "luaBundleEntry": "./src/demo/init.ts",
     "noImplicitSelf": true
   }
 }
