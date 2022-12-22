@@ -8,3 +8,6 @@ wezterm-typescript-configuration
 
 ## Test
 `wezterm --config-file init.lua`
+
+## Why
+Just to get completion in the ide (requires typing all wezterm builtins)
