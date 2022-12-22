@@ -2,8 +2,8 @@
 wezterm-typescript-configuration
 
 ## Build
-- `npm insatall`
-- `npx tstl`
+- `npm install`
+- `npm buid`
 - `sed -i '1s/^/local wezterm = require"wezterm"\n/' init.lua`
 
 ## Test
